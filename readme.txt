@@ -23,7 +23,7 @@ When a URL is detected does not begin with http: // or https: //, the plugin wil
 google.com is the best search engine, 
 followed by yahoo.com and 
 bing.com and 
-http://yandex.com
+`http://yandex.com`
 
 will be :
 
@@ -45,7 +45,8 @@ Say you have made adjustments as follows:
 google.com is the best search engine, 
 followed by yahoo.com and 
 bing.com and 
-http://yandex.com
+`http://yandex.com`
+
 will be :
 
 <a href="http://google.com" rel="nofollow" target="_self">google.com</a> is the best search engine, 
