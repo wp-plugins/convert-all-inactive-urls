@@ -20,17 +20,17 @@ This is a basic rule, when you don't change any setting all inactive urls will b
 
 When a URL is detected does not begin with http: // or https: //, the plugin will add http: // automatically on the url in the href attribute.
 
-google.com is the best search engine, 
+`google.com is the best search engine, 
 followed by yahoo.com and 
 bing.com and 
-`http://yandex.com`
+http://yandex.com.`
 
 will be :
 
-<a href="http://google.com" target="_blank">google.com</a> is the best search engine, 
+`<a href="http://google.com" target="_blank">google.com</a> is the best search engine, 
 followed by <a href="http://yahoo.com" target="_blank">yahoo.com</a> and 
 <a href="http://bing.com" target="_blank">bing.com</a> and 
-<a href="http://yandex.com" target="_blank">http://yandex.com</a>.
+<a href="http://yandex.com" target="_blank">http://yandex.com</a>.`
 
 Example 2
 
@@ -42,14 +42,14 @@ Say you have made adjustments as follows:
 * Target attribute is _self
 * Blocked domains: yahoo.com and yandex.com
 
-google.com is the best search engine, 
+`google.com is the best search engine, 
 followed by yahoo.com and 
 bing.com and 
-`http://yandex.com`
+http://yandex.com.`
 
 will be :
 
-<a href="http://google.com" rel="nofollow" target="_self">google.com</a> is the best search engine, 
+`<a href="http://google.com" rel="nofollow" target="_self">google.com</a> is the best search engine, 
 followed by yahoo.com and 
 <a href="http://bing.com" rel="nofollow" target="_self">bing.com</a> and 
-http://yandex.com.
+http://yandex.com.`
